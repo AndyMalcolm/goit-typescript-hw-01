@@ -6,7 +6,6 @@ type User1 = {
 };
 
 function createOrUpdateUser(initialValues: Partial<User1>): User1 {
-  // Оновлення користувача
   const defaultsUser: User1 = {
     name: "",
     surname: "",
