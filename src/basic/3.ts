@@ -1,4 +1,6 @@
-let unionType: string | number;
+let mixedType: string | number;
 
-type literalType = "enable" | "disable";
-let example: literalType;
+type status = "enable" | "disable";
+let answer: status;
+answer = "enable";
+answer = "disable";

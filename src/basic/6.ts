@@ -1,25 +1,26 @@
-interface User1 {
-    name: string;
-    age: number;
-    email: string;
-    address?: {
-      city: string;
-      country: string;
-    };
-  }
+interface User {
+  name: string;
+  age: number;
+  email: string;
+  address?: {
+    city: string;
+    country: string;
+  };
+}
 
-const mango = {
-    name: 'Mango',
-    age: 30,
-    email: 'john@example.com',
-    address: {
-        city: 'New York',
-        country: 'USA'
-    }
+let mango: User;
+mango = {
+  name: "Mango",
+  age: 30,
+  email: "john@example.com",
+  address: {
+    city: "New York",
+    country: "USA",
+  },
 };
-
-const poly = {
-    name: 'Mango',
-    age: 30,
-    email: 'john@example.com'
+let poly: User;
+poly = {
+  name: "Mango",
+  age: 30,
+  email: "john@example.com",
 };
